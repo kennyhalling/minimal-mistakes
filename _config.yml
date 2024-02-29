@@ -111,7 +111,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "kennyhalling@gmail.com"
+      url: "https://kennyhalling@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -123,7 +123,7 @@ author:
       url: "https://www.facebook.com/kenneth.halling.7/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/kennyhalling"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -142,7 +142,7 @@ footer:
       url: "https://www.facebook.com/kenneth.halling.7/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/kennyhalling"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -286,3 +286,12 @@ defaults:
       comments: # true
       share: true
       related: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
