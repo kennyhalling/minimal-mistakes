@@ -6,6 +6,8 @@ main:
     url: /
   - title: "Achievements"
     url: /achievements/
+  - title: "Bio"
+    url: /bio/
   - title: "Employment"
     url: /employment/
   - title: "Education"
